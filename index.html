@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>JS DOM</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <form name="main">
+            <label>
+                <p>Имя</p>
+                <input type="text" name="firstName" placeholder="Name">
+            </label>
+            <label>
+                <p>Фамилия</p>
+                <input type="text" name="lastName" placeholder="Surname">
+            </label>
+            <label>
+                <p>Возраст</p>
+                <input type="number" name="age" placeholder="Age">
+            </label>
+            <button>Добавить</button>
+        </form>
+
+        <div class="users_lists">
+            <div class="to_25 box">
+                <h2 class="title">People until 25</h2>
+                <div class="list"></div>
+                <div class="fog"></div>
+            </div>
+            <div class="divider"></div>
+            <div class="to_50 box">
+                <h2 class="title">People until 50</h2>
+                <div class="list"></div>
+                <div class="fog"></div>
+            </div>
+            <div class="divider"></div>
+            <div class="rest box">
+                <h2 class="title">Others</h2>
+                <div class="list"></div>
+                <div class="fog"></div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
